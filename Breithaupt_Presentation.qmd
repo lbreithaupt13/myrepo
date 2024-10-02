@@ -2,22 +2,16 @@
 title: "references.bib"
 format: revealjs
 editor: visual
+bibliography: My Library.bib
+## Some Important Literature
+-These references include DNA metabarcing methods for biodiversity surveying.
+## A Cool Equation or Two
+$$\pi(g\to g') = \frac{1 - \Big(\frac{w_{g}}{w_{g'}}\Big)^{a}}{1 - \Big(\frac{w_{g}}{w_{g'}}\Big)^{N}}$$
+
+$$w_A(g) \equiv \prod_i^M \sum_j^M \Big( \frac{\exp(-q\epsilon d^H_{i,j})}{\sum_j \exp(-q\epsilon d^H_{i,j})} \Big) \phi^{d^A_{i,j}}$$
+
+##References
 ---
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
 1 + 1
